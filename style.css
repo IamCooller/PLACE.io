@@ -1,0 +1,10 @@
+@import url(assets/css/normilaze.css);
+@import url(assets/css/header.css);
+@import url(assets/css/main.css);
+@import url(assets/css/footer.css);
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

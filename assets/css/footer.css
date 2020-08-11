@@ -1,0 +1,33 @@
+
+footer {
+    background: #383737;
+    border-radius: 2px;
+}
+
+footer li a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #FFFFFF;
+}
+
+.footer-cards {
+    height: 40px;
+}
+
+.footer-logo img {
+    width: 100%;
+    max-width: 200px
+}
+
+.footer-social img {
+    width: 100%;
+}

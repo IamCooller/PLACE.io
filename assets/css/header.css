@@ -1,0 +1,151 @@
+
+
+form {
+    position: relative;
+}
+
+.header-search input,
+.header-search button {
+    outline: none;
+    background: transparent;
+}
+
+.header-search input {
+    width: 100%;
+    height: 58px;
+    border: 1.5px solid #757575;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 151px;
+}
+
+form:target .filters {
+    display: none;
+}
+
+.filters {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+
+.header-search button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 8px;
+    right: 29px;
+    cursor: pointer;
+}
+
+select {
+    font-family: 'Alegreya Sans SC',
+        sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    background: none;
+    border: 0;
+    text-transform: uppercase;
+}
+
+option {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    text-transform: uppercase;
+}
+
+.header-logout button {
+    background: none;
+    border: 0;
+    font-family: 'Alegreya Sans SC',
+        sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    text-transform: uppercase;
+}
+
+
+.topmenu>li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.topmenu>li:last-child {
+    margin-right: 0;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar ul {
+    background: #000000;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.navbar ul a {
+    font-family: 'Alegreya Sans SC',
+        sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.submenu li a {
+    color: #000000;
+}
+
+.navbar ul span img {
+    padding-left: 10px;
+}
+
+.navbar .submenu {
+    visibility: hidden;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li:hover .submenu {
+    visibility: visible;
+}
+
+@media (max-width:990px) {
+    .navbar ul a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:770px) {
+    .topmenu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
